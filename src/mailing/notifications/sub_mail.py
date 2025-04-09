@@ -658,4 +658,3 @@ async def save_subscription(
             time, timezone_offset, report_type, token, date_periodity
         )
 
-

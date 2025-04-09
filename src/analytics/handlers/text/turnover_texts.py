@@ -25,12 +25,12 @@ def turnover_text(text_data: TextData) -> list[str]:
     bar_data = next((item for item in data["data"] if "Бар" in item["label"]), None)
     hozes_data = next((item for item in data["data"] if "Хозы" in item["label"]), None)
 
-    report = ""
-    if not text_data.only_negative or kitchen_data[dynamic_key] < 0:
+    report = "<b>Оборачиваемость остатков:</b>\n"
+    if not text_data.only_negative or kitchen_data[dynamic_key] > 0:
         report += f"🍳 <b>Кухня:</b> {kitchen_data[turnover_key]:.0f} дней, {kitchen_data[dynamic_key]:+.0f}%\n"
-    if not text_data.only_negative or bar_data[dynamic_key] < 0:
+    if not text_data.only_negative or bar_data[dynamic_key] > 0:
         report += f"🍻 <b>Бар:</b> {bar_data[turnover_key]:.0f} дней, {bar_data[dynamic_key]:+.0f}%\n"
-    if not text_data.only_negative or hozes_data[dynamic_key] < 0:
+    if not text_data.only_negative or hozes_data[dynamic_key] > 0:
         report += f"🧹 <b>Хозы:</b> {hozes_data[turnover_key]:.0f} дней, {hozes_data[dynamic_key]:+.0f}%\n"
 
     return [report]
@@ -61,13 +61,13 @@ def product_turnover_text(text_data: TextData) -> list[str]:
         remainder_end = item.get("remainder_end")
         
         if turnover is None :
-            turnover = "<i>нет данных</i>"
+            turnover = "<i>(нет данных)</i>"
         if remainder_end is None:
-            remainder_end = "<i>нет данных</i>"
+            remainder_end = "<i>(нет данных)</i>"
         # Форматируем цену с разделителем тысяч
         formatted_price = f"{remainder_end:,}".replace(",", " ")
-        report_lines.append(f"{item['label']}: {formatted_price} руб, {turnover} дней")
+        report_lines.append(f"{len(report_lines) + 1}. {item['label']}: {formatted_price} руб, {turnover} дней")
             
-    report = turnover_text(text_data)[0] + "\n" + "\n• ".join(report_lines)
+    report = turnover_text(text_data)[0] + "\nТОП-10 товаров по сумме остатка на конец периода:\n" + "\n".join(report_lines)
 
     return [report]
