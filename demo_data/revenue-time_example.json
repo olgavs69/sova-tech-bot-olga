@@ -1,0 +1,86 @@
+{
+    "data": [
+        {
+            "label": "06:00-09:00",
+            "revenue": 654857,
+            "revenue_week": 672425,
+            "revenue_month": 726438,
+            "revenue_year": 179822,
+            "revenue_dynamics_week": -3,
+            "revenue_dynamics_month": -10,
+            "revenue_dynamics_year": 264,
+            "revenue_forecast": 654844
+        },
+        {
+            "label": "09:00-12:00",
+            "revenue": 2540114,
+            "revenue_week": 2528651,
+            "revenue_month": 2647105,
+            "revenue_year": 768411,
+            "revenue_dynamics_week": 0,
+            "revenue_dynamics_month": -4,
+            "revenue_dynamics_year": 231,
+            "revenue_forecast": 2540109
+        },
+        {
+            "label": "12:00-15:00",
+            "revenue": 5118564,
+            "revenue_week": 5186876,
+            "revenue_month": 5365911,
+            "revenue_year": 1308617,
+            "revenue_dynamics_week": -1,
+            "revenue_dynamics_month": -5,
+            "revenue_dynamics_year": 291,
+            "revenue_forecast": 5118534
+        },
+        {
+            "label": "15:00-18:00",
+            "revenue": 2805174,
+            "revenue_week": 2746868,
+            "revenue_month": 2986581,
+            "revenue_year": 797567,
+            "revenue_dynamics_week": 2,
+            "revenue_dynamics_month": -6,
+            "revenue_dynamics_year": 252,
+            "revenue_forecast": 2805159
+        },
+        {
+            "label": "18:00-21:00",
+            "revenue": 1566982,
+            "revenue_week": 1564979,
+            "revenue_month": 1490635,
+            "revenue_year": 426790,
+            "revenue_dynamics_week": 0,
+            "revenue_dynamics_month": 5,
+            "revenue_dynamics_year": 267,
+            "revenue_forecast": 1566957
+        },
+        {
+            "label": "21:00-00:00",
+            "revenue": 288018,
+            "revenue_week": 285819,
+            "revenue_month": 304159,
+            "revenue_year": 81508,
+            "revenue_dynamics_week": 1,
+            "revenue_dynamics_month": -5,
+            "revenue_dynamics_year": 253,
+            "revenue_forecast": 287990
+        }
+    ],
+    "sum": {
+        "label": "Всего",
+        "revenue": 12973709,
+        "revenue_week": 12985618,
+        "revenue_month": 13520829,
+        "revenue_year": 3562715,
+        "revenue_dynamics_week": 0,
+        "revenue_dynamics_month": -4,
+        "revenue_dynamics_year": 264,
+        "revenue_forecast": 12973593,
+        "share_of_revenue": null,
+        "avg_revenue": null,
+        "avg_checks": null,
+        "depth": null,
+        "potential": null
+    }
+}

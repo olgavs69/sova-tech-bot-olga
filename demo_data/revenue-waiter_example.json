@@ -1,0 +1,660 @@
+{
+    "data": [
+        {
+            "label": "Абзаилов Идрис",
+            "revenue": 111842,
+            "avg_revenue": 27960,
+            "avg_checks": 565,
+            "depth": 5.29,
+            "potential": 5275
+        },
+        {
+            "label": "Алиев Тагетдин",
+            "revenue": 147350,
+            "avg_revenue": 24558,
+            "avg_checks": 538,
+            "depth": 5.29,
+            "potential": 7435
+        },
+        {
+            "label": "Алиса Кладиенко",
+            "revenue": 1266,
+            "avg_revenue": 1266,
+            "avg_checks": 253,
+            "depth": 4.45,
+            "potential": -731
+        },
+        {
+            "label": "Алиса Чивчинских",
+            "revenue": 2104,
+            "avg_revenue": 1052,
+            "avg_checks": 132,
+            "depth": 1.21,
+            "potential": -10209
+        },
+        {
+            "label": "Алиса Чивчинских",
+            "revenue": 9343,
+            "avg_revenue": 3114,
+            "avg_checks": 584,
+            "depth": 6.31,
+            "potential": 10464
+        },
+        {
+            "label": "Алиса Чивчинских",
+            "revenue": 2104,
+            "avg_revenue": 1052,
+            "avg_checks": 701,
+            "depth": 6.45,
+            "potential": 2982
+        },
+        {
+            "label": "Алиса Чивчинских",
+            "revenue": 9343,
+            "avg_revenue": 3114,
+            "avg_checks": 3114,
+            "depth": 33.65,
+            "potential": 274135
+        },
+        {
+            "label": "Андралович Яна",
+            "revenue": 6840,
+            "avg_revenue": 6840,
+            "avg_checks": 855,
+            "depth": 7.46,
+            "potential": 14024
+        },
+        {
+            "label": "Андралович Яна",
+            "revenue": 274356,
+            "avg_revenue": 45726,
+            "avg_checks": 34294,
+            "depth": 227.39,
+            "potential": 60792111
+        },
+        {
+            "label": "Андралович Яна",
+            "revenue": 6840,
+            "avg_revenue": 6840,
+            "avg_checks": 22,
+            "depth": 0.19,
+            "potential": -32109
+        },
+        {
+            "label": "Андралович Яна",
+            "revenue": 274356,
+            "avg_revenue": 45726,
+            "avg_checks": 863,
+            "depth": 5.72,
+            "potential": 130958
+        },
+        {
+            "label": "Асланов Гатам",
+            "revenue": 233734,
+            "avg_revenue": 38956,
+            "avg_checks": 674,
+            "depth": 4.72,
+            "potential": -121587
+        },
+        {
+            "label": "Асланов Гатам",
+            "revenue": 81599,
+            "avg_revenue": 27200,
+            "avg_checks": 235,
+            "depth": 2.68,
+            "potential": -34725
+        },
+        {
+            "label": "Асланов Гатам",
+            "revenue": 233734,
+            "avg_revenue": 38956,
+            "avg_checks": 1284,
+            "depth": 9.01,
+            "potential": 58806
+        },
+        {
+            "label": "Асланов Гатам",
+            "revenue": 81599,
+            "avg_revenue": 27200,
+            "avg_checks": 448,
+            "depth": 5.11,
+            "potential": -6058
+        },
+        {
+            "label": "Блинова Яна",
+            "revenue": 178282,
+            "avg_revenue": 25469,
+            "avg_checks": 542,
+            "depth": 5.54,
+            "potential": 23369
+        },
+        {
+            "label": "Богачева Екатерина",
+            "revenue": 30179,
+            "avg_revenue": 7545,
+            "avg_checks": 104,
+            "depth": 1.35,
+            "potential": -52960
+        },
+        {
+            "label": "Богачева Екатерина",
+            "revenue": 196110,
+            "avg_revenue": 28016,
+            "avg_checks": 676,
+            "depth": 5.79,
+            "potential": 107031
+        },
+        {
+            "label": "Богачева Екатерина",
+            "revenue": 30179,
+            "avg_revenue": 7545,
+            "avg_checks": 457,
+            "depth": 5.95,
+            "potential": 22867
+        },
+        {
+            "label": "Богачева Екатерина",
+            "revenue": 196110,
+            "avg_revenue": 28016,
+            "avg_checks": 2971,
+            "depth": 25.44,
+            "potential": 3271769
+        },
+        {
+            "label": "Бокова Анастасия",
+            "revenue": 84314,
+            "avg_revenue": 42157,
+            "avg_checks": 577,
+            "depth": 4.89,
+            "potential": -29844
+        },
+        {
+            "label": "Бородина Виктория",
+            "revenue": 480,
+            "avg_revenue": 480,
+            "avg_checks": 5,
+            "depth": 0.05,
+            "potential": -1629
+        },
+        {
+            "label": "Бородина Виктория",
+            "revenue": 45733,
+            "avg_revenue": 9147,
+            "avg_checks": 471,
+            "depth": 6.19,
+            "potential": 35393
+        },
+        {
+            "label": "Бородина Виктория",
+            "revenue": 480,
+            "avg_revenue": 480,
+            "avg_checks": 480,
+            "depth": 5,
+            "potential": -91
+        },
+        {
+            "label": "Бородина Виктория",
+            "revenue": 45733,
+            "avg_revenue": 9147,
+            "avg_checks": 45733,
+            "depth": 600.09,
+            "potential": 27070858
+        },
+        {
+            "label": "Вакула Елизавета",
+            "revenue": 312894,
+            "avg_revenue": 34766,
+            "avg_checks": 512,
+            "depth": 5.33,
+            "potential": -25916
+        },
+        {
+            "label": "Велигонова Анастасия",
+            "revenue": 66436,
+            "avg_revenue": 9491,
+            "avg_checks": 386,
+            "depth": 4.35,
+            "potential": -70876
+        },
+        {
+            "label": "Вылгин Сергей",
+            "revenue": 33845,
+            "avg_revenue": 16923,
+            "avg_checks": 505,
+            "depth": 4.47,
+            "potential": -24283
+        },
+        {
+            "label": "Вылгин Сергей",
+            "revenue": 41183,
+            "avg_revenue": 20592,
+            "avg_checks": 615,
+            "depth": 7.16,
+            "potential": 45283
+        },
+        {
+            "label": "Вылгин Сергей",
+            "revenue": 33845,
+            "avg_revenue": 16923,
+            "avg_checks": 338,
+            "depth": 3,
+            "potential": -44414
+        },
+        {
+            "label": "Вылгин Сергей",
+            "revenue": 41183,
+            "avg_revenue": 20592,
+            "avg_checks": 412,
+            "depth": 4.8,
+            "potential": -9657
+        },
+        {
+            "label": "Городилова Любовь",
+            "revenue": 159376,
+            "avg_revenue": 26563,
+            "avg_checks": 432,
+            "depth": 5,
+            "potential": -5578
+        },
+        {
+            "label": "Дарбинян Ксения",
+            "revenue": 210689,
+            "avg_revenue": 30098,
+            "avg_checks": 629,
+            "depth": 5.16,
+            "potential": -5697
+        },
+        {
+            "label": "Завгородняя Алина",
+            "revenue": 384092,
+            "avg_revenue": 38409,
+            "avg_checks": 535,
+            "depth": 5.31,
+            "potential": 46795
+        },
+        {
+            "label": "Завгородняя Алина",
+            "revenue": 121471,
+            "avg_revenue": 30368,
+            "avg_checks": 169,
+            "depth": 1.5,
+            "potential": -881535
+        },
+        {
+            "label": "Завгородняя Алина",
+            "revenue": 384092,
+            "avg_revenue": 38409,
+            "avg_checks": 1829,
+            "depth": 18.16,
+            "potential": 5780721
+        },
+        {
+            "label": "Завгородняя Алина",
+            "revenue": 121471,
+            "avg_revenue": 30368,
+            "avg_checks": 578,
+            "depth": 5.12,
+            "potential": -15486
+        },
+        {
+            "label": "Изатуллаева Мадина",
+            "revenue": 360219,
+            "avg_revenue": 51460,
+            "avg_checks": 598,
+            "depth": 5.24,
+            "potential": -214
+        },
+        {
+            "label": "Инютина Екатерина",
+            "revenue": 523630,
+            "avg_revenue": 34909,
+            "avg_checks": 614,
+            "depth": 5.47,
+            "potential": 29360
+        },
+        {
+            "label": "Камбулова Татьяна",
+            "revenue": 108722,
+            "avg_revenue": 36241,
+            "avg_checks": 572,
+            "depth": 5.44,
+            "potential": 21614
+        },
+        {
+            "label": "Каплаухова Екатерина",
+            "revenue": 173514,
+            "avg_revenue": 21689,
+            "avg_checks": 537,
+            "depth": 5,
+            "potential": -72148
+        },
+        {
+            "label": "Каракашян Диана",
+            "revenue": 183634,
+            "avg_revenue": 30606,
+            "avg_checks": 499,
+            "depth": 5.4,
+            "potential": 37791
+        },
+        {
+            "label": "Карпухин Родион  FT",
+            "revenue": 522945,
+            "avg_revenue": 40227,
+            "avg_checks": 519,
+            "depth": 4.88,
+            "potential": -81532
+        },
+        {
+            "label": "Кривенко Анастасия",
+            "revenue": 280,
+            "avg_revenue": 280,
+            "avg_checks": 280,
+            "depth": 7,
+            "potential": 492
+        },
+        {
+            "label": "Лещенко Анастасия",
+            "revenue": 1390,
+            "avg_revenue": 348,
+            "avg_checks": 278,
+            "depth": 4.2,
+            "potential": -1375
+        },
+        {
+            "label": "Малейко Анастасия",
+            "revenue": 51085,
+            "avg_revenue": 10217,
+            "avg_checks": 615,
+            "depth": 5.57,
+            "potential": 8198
+        },
+        {
+            "label": "Мария Касатонова",
+            "revenue": 343547,
+            "avg_revenue": 34355,
+            "avg_checks": 484,
+            "depth": 5.13,
+            "potential": -20609
+        },
+        {
+            "label": "Мартиросова Светлана",
+            "revenue": 113472,
+            "avg_revenue": 28368,
+            "avg_checks": 573,
+            "depth": 5.95,
+            "potential": 80364
+        },
+        {
+            "label": "Мартынова Анна",
+            "revenue": 437304,
+            "avg_revenue": 31236,
+            "avg_checks": 632,
+            "depth": 5.55,
+            "potential": 60893
+        },
+        {
+            "label": "Милова Алиса",
+            "revenue": 187948,
+            "avg_revenue": 31325,
+            "avg_checks": 550,
+            "depth": 4.95,
+            "potential": -55621
+        },
+        {
+            "label": "Мирошниченко Екатерина",
+            "revenue": 6712,
+            "avg_revenue": 1678,
+            "avg_checks": 959,
+            "depth": 4.31,
+            "potential": -16493
+        },
+        {
+            "label": "Мирошниченко Екатерина",
+            "revenue": 3287,
+            "avg_revenue": 657,
+            "avg_checks": 470,
+            "depth": 4.74,
+            "potential": -967
+        },
+        {
+            "label": "Мирошниченко Екатерина",
+            "revenue": 6712,
+            "avg_revenue": 1678,
+            "avg_checks": 959,
+            "depth": 4.31,
+            "potential": -7406
+        },
+        {
+            "label": "Мирошниченко Екатерина",
+            "revenue": 3287,
+            "avg_revenue": 657,
+            "avg_checks": 470,
+            "depth": 4.74,
+            "potential": 2343
+        },
+        {
+            "label": "Мовсисян Наира",
+            "revenue": 154995,
+            "avg_revenue": 38749,
+            "avg_checks": 439,
+            "depth": 4.88,
+            "potential": -47646
+        },
+        {
+            "label": "Мхитарян Георгий",
+            "revenue": 95678,
+            "avg_revenue": 31893,
+            "avg_checks": 609,
+            "depth": 5.5,
+            "potential": 24176
+        },
+        {
+            "label": "Нурбагандова Айшат",
+            "revenue": 164757,
+            "avg_revenue": 23537,
+            "avg_checks": 564,
+            "depth": 5.37,
+            "potential": -6822
+        },
+        {
+            "label": "Нурбагандова Айшат",
+            "revenue": 12479,
+            "avg_revenue": 12479,
+            "avg_checks": 43,
+            "depth": 0.44,
+            "potential": -44764
+        },
+        {
+            "label": "Нурбагандова Айшат",
+            "revenue": 164757,
+            "avg_revenue": 23537,
+            "avg_checks": 5492,
+            "depth": 52.28,
+            "potential": 7498525
+        },
+        {
+            "label": "Нурбагандова Айшат",
+            "revenue": 12479,
+            "avg_revenue": 12479,
+            "avg_checks": 416,
+            "depth": 4.26,
+            "potential": -9610
+        },
+        {
+            "label": "Поддубная Елизавета",
+            "revenue": 132560,
+            "avg_revenue": 22093,
+            "avg_checks": 520,
+            "depth": 5.45,
+            "potential": 4940
+        },
+        {
+            "label": "Полунин Александр",
+            "revenue": 282778,
+            "avg_revenue": 31420,
+            "avg_checks": 489,
+            "depth": 4.94,
+            "potential": -26828
+        },
+        {
+            "label": "Рыжкова Мария",
+            "revenue": 514,
+            "avg_revenue": 514,
+            "avg_checks": 257,
+            "depth": 2.67,
+            "potential": -1408
+        },
+        {
+            "label": "Рякина Александра",
+            "revenue": 12015,
+            "avg_revenue": 12015,
+            "avg_checks": 400,
+            "depth": 4.91,
+            "potential": -1464
+        },
+        {
+            "label": "Рякина Александра",
+            "revenue": 148383,
+            "avg_revenue": 16487,
+            "avg_checks": 4946,
+            "depth": 52.21,
+            "potential": 6743520
+        },
+        {
+            "label": "Рякина Александра",
+            "revenue": 12015,
+            "avg_revenue": 12015,
+            "avg_checks": 40,
+            "depth": 0.49,
+            "potential": -42440
+        },
+        {
+            "label": "Рякина Александра",
+            "revenue": 148383,
+            "avg_revenue": 16487,
+            "avg_checks": 496,
+            "depth": 5.24,
+            "potential": -25784
+        },
+        {
+            "label": "Сидорова Инна",
+            "revenue": 57950,
+            "avg_revenue": 11590,
+            "avg_checks": 517,
+            "depth": 5.61,
+            "potential": 11348
+        },
+        {
+            "label": "Теслюк Елизавета",
+            "revenue": 174606,
+            "avg_revenue": 24944,
+            "avg_checks": 567,
+            "depth": 5.32,
+            "potential": 13172
+        },
+        {
+            "label": "Туриченко Светлана",
+            "revenue": 25594,
+            "avg_revenue": 8531,
+            "avg_checks": 2327,
+            "depth": 23.2,
+            "potential": 514231
+        },
+        {
+            "label": "Туриченко Светлана",
+            "revenue": 6011,
+            "avg_revenue": 1503,
+            "avg_checks": 546,
+            "depth": 4,
+            "potential": -7472
+        },
+        {
+            "label": "Туриченко Светлана",
+            "revenue": 25594,
+            "avg_revenue": 8531,
+            "avg_checks": 512,
+            "depth": 5.1,
+            "potential": -2179
+        },
+        {
+            "label": "Туриченко Светлана",
+            "revenue": 6011,
+            "avg_revenue": 1503,
+            "avg_checks": 120,
+            "depth": 0.88,
+            "potential": -47328
+        },
+        {
+            "label": "Усенко Анна",
+            "revenue": 158130,
+            "avg_revenue": 14375,
+            "avg_checks": 592,
+            "depth": 5.62,
+            "potential": 60013
+        },
+        {
+            "label": "Флагман",
+            "revenue": 370,
+            "avg_revenue": 370,
+            "avg_checks": 370,
+            "depth": 6,
+            "potential": 217
+        },
+        {
+            "label": "Цвирко-Годицкий Михаил",
+            "revenue": 127320,
+            "avg_revenue": 21220,
+            "avg_checks": 685,
+            "depth": 6.08,
+            "potential": 84566
+        },
+        {
+            "label": "Чистохина Татьяна",
+            "revenue": 537826,
+            "avg_revenue": 44819,
+            "avg_checks": 576,
+            "depth": 4.92,
+            "potential": -174488
+        },
+        {
+            "label": "Шаповалова Варвара",
+            "revenue": 316,
+            "avg_revenue": 316,
+            "avg_checks": 316,
+            "depth": 3.4,
+            "potential": -635
+        },
+        {
+            "label": "Шувалова Александра FT",
+            "revenue": 257032,
+            "avg_revenue": 21419,
+            "avg_checks": 497,
+            "depth": 5.24,
+            "potential": 52379
+        },
+        {
+            "label": "Январёва Анастасия",
+            "revenue": 439791,
+            "avg_revenue": 31414,
+            "avg_checks": 542,
+            "depth": 5.24,
+            "potential": 92237
+        }
+    ],
+    "sum": {
+        "label": "Всего",
+        "revenue": 10380619,
+        "revenue_week": null,
+        "revenue_month": null,
+        "revenue_year": null,
+        "revenue_dynamics_week": null,
+        "revenue_dynamics_month": null,
+        "revenue_dynamics_year": null,
+        "revenue_forecast": null,
+        "share_of_revenue": null,
+        "avg_revenue": 19640,
+        "avg_checks": 1700,
+        "depth": 17,
+        "potential": 110972037
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "data": [
+        {
+            "label": "Воскресенье",
+            "revenue": 1320069,
+            "revenue_week": 1200416,
+            "revenue_month": 2544167,
+            "revenue_year": null,
+            "revenue_dynamics_week": 10,
+            "revenue_dynamics_month": -48,
+            "revenue_dynamics_year": null,
+            "revenue_forecast": 1320069
+        },
+        {
+            "label": "Вторник",
+            "revenue": 2352884,
+            "revenue_week": 3148681,
+            "revenue_month": 2125909,
+            "revenue_year": null,
+            "revenue_dynamics_week": -25,
+            "revenue_dynamics_month": 11,
+            "revenue_dynamics_year": null,
+            "revenue_forecast": 2352884
+        },
+        {
+            "label": "Понедельник",
+            "revenue": 1987710,
+            "revenue_week": 2337059,
+            "revenue_month": 2060944,
+            "revenue_year": null,
+            "revenue_dynamics_week": -15,
+            "revenue_dynamics_month": -4,
+            "revenue_dynamics_year": null,
+            "revenue_forecast": 1987710
+        },
+        {
+            "label": "Пятница",
+            "revenue": 1952468,
+            "revenue_week": 1940589,
+            "revenue_month": 2019296,
+            "revenue_year": null,
+            "revenue_dynamics_week": 1,
+            "revenue_dynamics_month": -3,
+            "revenue_dynamics_year": null,
+            "revenue_forecast": 1952468
+        },
+        {
+            "label": "Среда",
+            "revenue": 1922981,
+            "revenue_week": 1913796,
+            "revenue_month": 1684412,
+            "revenue_year": null,
+            "revenue_dynamics_week": 0,
+            "revenue_dynamics_month": 14,
+            "revenue_dynamics_year": null,
+            "revenue_forecast": 1922981
+        },
+        {
+            "label": "Суббота",
+            "revenue": 1523679,
+            "revenue_week": 1410609,
+            "revenue_month": 2067329,
+            "revenue_year": null,
+            "revenue_dynamics_week": 8,
+            "revenue_dynamics_month": -26,
+            "revenue_dynamics_year": null,
+            "revenue_forecast": 1523679
+        },
+        {
+            "label": "Четверг",
+            "revenue": 1913918,
+            "revenue_week": 1957950,
+            "revenue_month": 1945489,
+            "revenue_year": null,
+            "revenue_dynamics_week": -2,
+            "revenue_dynamics_month": -2,
+            "revenue_dynamics_year": null,
+            "revenue_forecast": 1913918
+        }
+    ],
+    "sum": {
+        "label": "Всего",
+        "revenue": 12973709,
+        "revenue_week": 13909100,
+        "revenue_month": 14447546,
+        "revenue_year": 0,
+        "revenue_dynamics_week": -7,
+        "revenue_dynamics_month": -10,
+        "revenue_dynamics_year": null,
+        "revenue_forecast": 12973709,
+        "share_of_revenue": null,
+        "avg_revenue": null,
+        "avg_checks": null,
+        "depth": null,
+        "potential": null
+    }
+}
