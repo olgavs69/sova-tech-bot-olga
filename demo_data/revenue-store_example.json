@@ -1,10 +1,10 @@
 {
     "data": [
         {
-            "label": "1.Бар Пушкинская 192",
-            "revenue": 616801,
-            "revenue_week": 647220,
-            "revenue_month": 756426,
+            "label": "1. Бар",
+            "revenue": 1850403,
+            "revenue_week": 1941660,
+            "revenue_month": 2269278,
             "revenue_year": null,
             "revenue_dynamics_week": -5,
             "revenue_dynamics_month": -18,
@@ -12,10 +12,10 @@
             "revenue_forecast": 616801
         },
         {
-            "label": "1.Кухня Пушкинская 192",
-            "revenue": 3055939,
-            "revenue_week": 3287627,
-            "revenue_month": 3624059,
+            "label": "1. Кухня",
+            "revenue": 9167817,
+            "revenue_week": 9862879,
+            "revenue_month": 10872177,
             "revenue_year": null,
             "revenue_dynamics_week": -7,
             "revenue_dynamics_month": -16,
@@ -23,10 +23,10 @@
             "revenue_forecast": 3055939
         },
         {
-            "label": "2.Бар Соколова 31/118",
-            "revenue": 757965,
-            "revenue_week": 803920,
-            "revenue_month": 890820,
+            "label": "2. Бар",
+            "revenue": 2273895,
+            "revenue_week": 2411760,
+            "revenue_month": 2672460,
             "revenue_year": null,
             "revenue_dynamics_week": -6,
             "revenue_dynamics_month": -15,
@@ -34,10 +34,10 @@
             "revenue_forecast": 757965
         },
         {
-            "label": "2.Кухня Соколова 31/118",
-            "revenue": 3674748,
-            "revenue_week": 3797651,
-            "revenue_month": 3913205,
+            "label": "2. Кухня",
+            "revenue": 11024244,
+            "revenue_week": 11392953,
+            "revenue_month": 11739615,
             "revenue_year": null,
             "revenue_dynamics_week": -3,
             "revenue_dynamics_month": -6,
@@ -45,10 +45,10 @@
             "revenue_forecast": 3674748
         },
         {
-            "label": "3.Бар Красноармейская 202",
-            "revenue": 390901,
-            "revenue_week": 417688,
-            "revenue_month": 434151,
+            "label": "3. Бар",
+            "revenue": 1172703,
+            "revenue_week": 1253064,
+            "revenue_month": 1302453,
             "revenue_year": null,
             "revenue_dynamics_week": -6,
             "revenue_dynamics_month": -10,
@@ -56,10 +56,10 @@
             "revenue_forecast": 390901
         },
         {
-            "label": "3.Кухня Красноармейская 202",
-            "revenue": 2289970,
-            "revenue_week": 2617489,
-            "revenue_month": 2357007,
+            "label": "3. Кухня",
+            "revenue": 6869910,
+            "revenue_week": 7852467,
+            "revenue_month": 7071021,
             "revenue_year": null,
             "revenue_dynamics_week": -13,
             "revenue_dynamics_month": -3,
@@ -67,10 +67,10 @@
             "revenue_forecast": 2289970
         },
         {
-            "label": "4.Бар Буденновский 44",
-            "revenue": 385922,
-            "revenue_week": 389949,
-            "revenue_month": 430101,
+            "label": "4. Бар",
+            "revenue": 1157766,
+            "revenue_week": 1169847,
+            "revenue_month": 1290303,
             "revenue_year": null,
             "revenue_dynamics_week": -1,
             "revenue_dynamics_month": -10,
@@ -78,10 +78,10 @@
             "revenue_forecast": 385922
         },
         {
-            "label": "4.Кухня Буденновский 44",
-            "revenue": 1801462,
-            "revenue_week": 1947557,
-            "revenue_month": 2041776,
+            "label": "4. Кухня",
+            "revenue": 5404386,
+            "revenue_week": 5842671,
+            "revenue_month": 6125328,
             "revenue_year": null,
             "revenue_dynamics_week": -8,
             "revenue_dynamics_month": -12,
@@ -91,9 +91,9 @@
     ],
     "sum": {
         "label": "Всего",
-        "revenue": 12973708,
-        "revenue_week": 13909101,
-        "revenue_month": 14447545,
+        "revenue": 38921122,
+        "revenue_week": 41727303,
+        "revenue_month": 43342635,
         "revenue_year": 0,
         "revenue_dynamics_week": -7,
         "revenue_dynamics_month": -10,

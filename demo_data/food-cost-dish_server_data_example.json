@@ -1,8 +1,8 @@
 {
     "data": [
         {
-            "label": "Кола 0,33",
-            "food_cost": 59,
+            "label": "Стейк 170 гр",
+            "food_cost": 58,
             "food_cost_dynamics_week": 0,
             "food_cost_dynamics_month": -8,
             "food_cost_dynamics_year": null,
@@ -16,8 +16,8 @@
             "dish_discount_dynamic_year": 0
         },
         {
-            "label": "Чизкейк ягодный 170 гр",
-            "food_cost": 57,
+            "label": "Вино красное",
+            "food_cost": 55,
             "food_cost_dynamics_week": -1,
             "food_cost_dynamics_month": -2,
             "food_cost_dynamics_year": null,
@@ -31,7 +31,7 @@
             "dish_discount_dynamic_year": 0
         },
         {
-            "label": "Напиток Кинза Лимон без сахара 0.320",
+            "label": "Торт Красный бархат",
             "food_cost": 56,
             "food_cost_dynamics_week": -4,
             "food_cost_dynamics_month": -3,
@@ -46,8 +46,8 @@
             "dish_discount_dynamic_year": 0
         },
         {
-            "label": "Напиток Кинза Гранат 0.320",
-            "food_cost": 55,
+            "label": "Мохито б/а",
+            "food_cost": 53,
             "food_cost_dynamics_week": -2,
             "food_cost_dynamics_month": -8,
             "food_cost_dynamics_year": null,
@@ -61,8 +61,8 @@
             "dish_discount_dynamic_year": 0
         },
         {
-            "label": "Рулет сказка 170 гр",
-            "food_cost": 54,
+            "label": "Борщ 550 мл",
+            "food_cost": 55,
             "food_cost_dynamics_week": -1,
             "food_cost_dynamics_month": 0,
             "food_cost_dynamics_year": null,

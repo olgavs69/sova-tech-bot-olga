@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "label": "Витрина Холодильная Glasier BCM-1,2, шт",
+            "label": "Вилка, шт",
             "expense_day": 51613,
             "turnover_in_days_dynamic_week": -12,
             "turnover_in_days_dynamic_month": 20,
@@ -12,7 +12,7 @@
             "remainder_end": 1800000
         },
         {
-            "label": "Пароконвектомат Unox, шт",
+            "label": "Говядина, кг",
             "expense_day": 24194,
             "turnover_in_days_dynamic_week": -15,
             "turnover_in_days_dynamic_month": 0,
@@ -23,7 +23,7 @@
             "remainder_end": 750000
         },
         {
-            "label": "Кофемашина ZOE, шт",
+            "label": "Кофемашина, шт",
             "expense_day": 16129,
             "turnover_in_days_dynamic_week": -31,
             "turnover_in_days_dynamic_month": null,
@@ -34,7 +34,7 @@
             "remainder_end": 500000
         },
         {
-            "label": "Витрина холодильная Carboma, шт",
+            "label": "Куриное бедро, кг",
             "expense_day": 9677,
             "turnover_in_days_dynamic_week": -20,
             "turnover_in_days_dynamic_month": 8,
@@ -45,7 +45,7 @@
             "remainder_end": 380000
         },
         {
-            "label": "Витрина Холодильная Glasier BCM-2, шт",
+            "label": "Индейка, кг",
             "expense_day": 9677,
             "turnover_in_days_dynamic_week": -31,
             "turnover_in_days_dynamic_month": null,
@@ -56,7 +56,7 @@
             "remainder_end": 300000
         },
         {
-            "label": "Стол холодильный 4 ящика, шт",
+            "label": "Творог, кг",
             "expense_day": 4194,
             "turnover_in_days_dynamic_week": null,
             "turnover_in_days_dynamic_month": null,
@@ -89,7 +89,7 @@
             "remainder_end": 105943
         },
         {
-            "label": "Чайник стеклянный 650мл,шт",
+            "label": "Чайник стеклянный, шт",
             "expense_day": 592,
             "turnover_in_days_dynamic_week": 0,
             "turnover_in_days_dynamic_month": null,
@@ -100,7 +100,7 @@
             "remainder_end": 98252
         },
         {
-            "label": "Тарелка 215 мм с вертикальным бортом",
+            "label": "Тарелка 215 мм с вертикальным бортом, шт",
             "expense_day": 3164,
             "turnover_in_days_dynamic_week": 0,
             "turnover_in_days_dynamic_month": null,

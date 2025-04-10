@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "label": "1.Бар Пушкинская 192",
+            "label": "1.Кухня",
             "expense_day": 4240,
             "turnover_in_days": 47,
             "turnover_in_days_dynamic_week": 2,
@@ -13,7 +13,7 @@
             "remainder_end": 199556
         },
         {
-            "label": "1.Кухня Пушкинская 192",
+            "label": "1.Кухня",
             "expense_day": 28500,
             "turnover_in_days": 17,
             "turnover_in_days_dynamic_week": 3,
@@ -25,7 +25,7 @@
             "remainder_end": 473447
         },
         {
-            "label": "1.Хозы Пушкинская 192",
+            "label": "1.Хозы",
             "expense_day": 5040,
             "turnover_in_days": 42,
             "turnover_in_days_dynamic_week": -18,
@@ -37,7 +37,7 @@
             "remainder_end": 211510
         },
         {
-            "label": "2.Бар Соколова 31/118",
+            "label": "2.Кухня",
             "expense_day": 4946,
             "turnover_in_days": 39,
             "turnover_in_days_dynamic_week": 3,
@@ -49,7 +49,7 @@
             "remainder_end": 190832
         },
         {
-            "label": "2.Кухня Соколова 31/118",
+            "label": "2.Кухня",
             "expense_day": 37132,
             "turnover_in_days": 17,
             "turnover_in_days_dynamic_week": 6,
@@ -61,7 +61,7 @@
             "remainder_end": 641628
         },
         {
-            "label": "2.Хозы Соколова 31/118",
+            "label": "2.Хозы",
             "expense_day": 8555,
             "turnover_in_days": 22,
             "turnover_in_days_dynamic_week": -12,
@@ -73,7 +73,7 @@
             "remainder_end": 190694
         },
         {
-            "label": "3.Бар Красноармейская 202",
+            "label": "3.Кухня",
             "expense_day": 3414,
             "turnover_in_days": 45,
             "turnover_in_days_dynamic_week": 7,
@@ -85,7 +85,7 @@
             "remainder_end": 152586
         },
         {
-            "label": "3.Кухня Красноармейская 202",
+            "label": "3.Кухня",
             "expense_day": 23115,
             "turnover_in_days": 16,
             "turnover_in_days_dynamic_week": 5,
@@ -97,7 +97,7 @@
             "remainder_end": 362927
         },
         {
-            "label": "3.Хозы Красноармейская 202",
+            "label": "3.Хозы",
             "expense_day": 4117,
             "turnover_in_days": 38,
             "turnover_in_days_dynamic_week": 3,
@@ -109,7 +109,7 @@
             "remainder_end": 154767
         },
         {
-            "label": "4.Бар Буденновский 44",
+            "label": "4.Кухня",
             "expense_day": 2595,
             "turnover_in_days": 32,
             "turnover_in_days_dynamic_week": 2,
@@ -121,7 +121,7 @@
             "remainder_end": 82905
         },
         {
-            "label": "4.Кухня Буденновский 44",
+            "label": "4.Кухня",
             "expense_day": 16886,
             "turnover_in_days": 15,
             "turnover_in_days_dynamic_week": 0,
@@ -133,7 +133,7 @@
             "remainder_end": 246575
         },
         {
-            "label": "4.Хозы Буденновский 44",
+            "label": "4.Хозы",
             "expense_day": 2626,
             "turnover_in_days": 33,
             "turnover_in_days_dynamic_week": 1,
