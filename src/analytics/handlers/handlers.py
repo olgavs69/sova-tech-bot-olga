@@ -36,7 +36,19 @@ async def back_current_step_handler(query: CallbackQuery, state: FSMContext) -> 
 
 @router.callback_query(F.data == "report:back_previous_step")
 async def back_previous_step_handler(query: CallbackQuery, state: FSMContext) -> None:
-    await previous_step(MsgData(msg=query.message, state=state, tgid=query.from_user.id))
+    state_data = await state.get_data()
+    step = state_data.get("report:step", 0)
+
+    if step <= 0:
+        from src.basic.commands.start_command import get_markup
+        await clear_report_state_data(state)
+        await query.message.edit_text(
+            "Вас приветствует чат-бот SOVA-tech!",
+            reply_markup=get_markup(user_id=query.from_user.id, has_token=True)
+        )
+    else:
+        await previous_step(MsgData(msg=query.message, state=state, tgid=query.from_user.id))
+
     await query.answer()
 
 
@@ -107,3 +119,18 @@ async def show_recommendations_handler(query: CallbackQuery, state: FSMContext) 
     await state.update_data(
         {"report:format_type": ReportFormatTypes.RECOMMENDATIONS})  # Вроде тут не надо, но пусть будет
     await recommendations_msg(MsgData(msg=query.message, state=state, tgid=query.from_user.id))
+
+
+@router.callback_query(F.data == "report:back_to_main_menu")
+async def back_to_main_menu_handler(query: CallbackQuery, state: FSMContext) -> None:
+    from src.basic.commands.start_command import get_markup  # корректный импорт
+
+    await clear_report_state_data(state)
+
+    # Тут передай user_id и has_token (если не знаешь has_token — можно временно True)
+    await query.message.edit_text(
+        "Вас приветствует чат-бот SOVA-tech!",
+        reply_markup=get_markup(user_id=query.from_user.id, has_token=True)
+    )
+    await query.answer()
+

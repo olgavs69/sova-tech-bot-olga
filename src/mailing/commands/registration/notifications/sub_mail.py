@@ -1,13 +1,12 @@
 import logging
 import re
-from typing import Optional, Union
+from typing import Optional
 
-from aiogram import Dispatcher, Router, F, types, Bot
+from aiogram import Dispatcher, Router, F, Bot
 from aiogram.enums import ParseMode
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
-from aiogram.types import Message, CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, \
-    KeyboardButton
+from aiogram.types import Message, CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 
 import asyncpg
 import config as cf
@@ -70,8 +69,9 @@ async def check_state_data(state: FSMContext):
 
 @save_time_router.callback_query(F.data == "main_menu")
 async def handle_main_menu_callback(callback: CallbackQuery, state: FSMContext):
-    await callback.answer()  # Закрываем спиннер на кнопке
-    await start_handler(callback.from_user.id, callback.message, state)
+    await callback.message.delete()  # Удаляем сообщение с кнопкой
+    await callback.answer()  # Закрываем спиннер
+    await start_handler(callback.from_user.id, callback.message, state)  # Показываем главное меню
 
 
 
@@ -246,17 +246,19 @@ async def show_subscriptions(callback_query: CallbackQuery):
         ''', callback_query.from_user.id)
 
         if not subscriptions:
-            await callback_query.message.answer("Вы не подписаны ни на одну рассылку.")
+            await callback_query.message.delete()
+            await callback_query.message.answer(
+                "Вы не подписаны ни на одну рассылку.",
+                reply_markup=get_main_menu_keyboard()
+            )
             return
 
         buttons = []
         for sub in subscriptions:
-            # 🔁 Получаем переведённые названия
             report_type_key = sub['report_type']
             report_type_name = all_types.get(report_type_key, f"❓ {report_type_key}")
             period_name = all_time_periods.get(sub['periodicity'], sub['periodicity'])
 
-            # 📌 Составляем читаемый текст подписки
             subscription_text = f"{report_type_name}, {period_name}"
 
             if sub['weekday'] is not None:
@@ -268,7 +270,6 @@ async def show_subscriptions(callback_query: CallbackQuery):
 
             subscription_text += f", {sub['time']}"
 
-            # 📎 Кнопка на удаление/отображение подписки
             buttons.append([
                 InlineKeyboardButton(
                     text=subscription_text,
@@ -276,16 +277,24 @@ async def show_subscriptions(callback_query: CallbackQuery):
                 )
             ])
 
+        # Добавляем кнопку главного меню
+        buttons.append([
+            InlineKeyboardButton(text="🔙 Вернуться в главное меню", callback_data="main_menu")
+        ])
+
         keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)
-        await callback_query.message.answer("Ваши подписки:", reply_markup=keyboard)
+
+        await callback_query.message.delete()  # Удаляем старое сообщение
+        await callback_query.message.answer("📋 Ваши подписки:", reply_markup=keyboard)
 
     except Exception as e:
         logging.error(f"Ошибка при извлечении подписок: {e}")
-        await callback_query.message.answer("Произошла ошибка при извлечении подписок. Попробуйте позже.")
+        await callback_query.message.answer(
+            "Произошла ошибка при извлечении подписок. Попробуйте позже.",
+            reply_markup=get_main_menu_keyboard()
+        )
     finally:
         await conn.close()
-
-
 
 
 async def execute_db_query(query: str, *args):
@@ -396,20 +405,21 @@ async def back_to_subscriptions(callback_query: CallbackQuery):
         ''', callback_query.from_user.id)
 
         if not subscriptions:
-            await callback_query.message.answer("Вы не подписаны ни на одну рассылку.")
+            await callback_query.message.answer(
+                "Вы не подписаны ни на одну рассылку.",
+                reply_markup=get_main_menu_keyboard()
+            )
             return
 
-        subscriptions_text = ""
+        subscriptions_text = "📋 Ваши текущие подписки:\n\n"
         buttons = []
-
         weekday_names = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"]
 
         for sub in subscriptions:
-            # Русификация типа отчёта и периода
             report_type = all_types.get(sub['report_type'], f"❓ {sub['report_type']}")
             period = all_time_periods.get(sub['periodicity'], sub['periodicity'])
 
-            subscription_text = f"{report_type}, {period}"
+            subscription_text = f"• {report_type}, {period}"
 
             if sub['weekday'] is not None:
                 subscription_text += f", {weekday_names[sub['weekday']]}"
@@ -420,23 +430,29 @@ async def back_to_subscriptions(callback_query: CallbackQuery):
             subscription_text += f", {sub['time']}"
 
             buttons.append([InlineKeyboardButton(
-                text=subscription_text,
+                text=f"📌 {report_type} ({period})",
                 callback_data=f"subscription_{sub['subscription_type']}_{sub['time']}"
             )])
 
             subscriptions_text += f"{subscription_text}\n"
 
-        buttons.append([InlineKeyboardButton(text="Назад к подпискам", callback_data="show_subscriptions")])
-        keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)
+        # Добавляем кнопки навигации
+        buttons.append([
+            InlineKeyboardButton(text="↩️ Назад", callback_data="show_subscriptions"),
+            InlineKeyboardButton(text="🏠 Главное меню", callback_data="main_menu")
+        ])
 
-        await callback_query.message.answer(f"Вот ваши подписки:\n{subscriptions_text}", reply_markup=keyboard)
+        keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)
+        await callback_query.message.answer(subscriptions_text, reply_markup=keyboard)
 
     except Exception as e:
         logging.error(f"Error fetching subscriptions: {e}")
-        await callback_query.message.answer("Произошла ошибка при извлечении подписок. Попробуйте позже.")
+        await callback_query.message.answer(
+            "Произошла ошибка при извлечении подписок. Попробуйте позже.",
+            reply_markup=get_main_menu_keyboard()
+        )
     finally:
         await conn.close()
-
 
 
 @save_time_router.callback_query(F.data.startswith("tz_"))
